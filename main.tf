@@ -21,5 +21,6 @@ resource "aws_instance" "web" {
   tags = {
     Name = "SaiShanmukkha_TF_Cloud_Instance"
     Owner = "Sai Shanmukkha Surapaneni"
+    Date = "Dec 27, 2025"
   }
 }
